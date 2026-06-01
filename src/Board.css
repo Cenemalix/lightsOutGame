@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.Board {
+  margin: 40px auto;
+  border-collapse: collapse;
+  background-color: #111;
+  box-shadow: 0 0 20px #00ffcc55;
+}
+
+.board-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00ffc3;
+  margin-top: 30px;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0 0 10px #00ffc3;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px #0097a7;
+}
+
+.reset-btn:hover {
+  background-color: #0097a7;
+}
+
+.posveta {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #51f7d0d8;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  opacity: 0.8;
+}
